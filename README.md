@@ -12,4 +12,13 @@ Two jars are used in this project tester.jar and javalib.jar these both can be f
 This project uses jdk 11.0.17.
 
 ## How to change the image
+First, create a new PixelImage object in testBigBang like shown below. Ensure that the jpg image you are referencing is in the main project folder.
+PixelImage balloonsImage = new PixelImage(new FromFileImage("balloons.jpg"));
+
+Then create a SeamCarvingWorld object using the PixelImage as an input for the constructor like below.
+SeamCarvingWWorld ballonsWorld = new SeamCarvingWorld(balloonsImage);
+
+In the testBigBang function in the ExamplePixels class call the big bang function of the SeamCarvingWorld object with its image.width and image.height fields like below.
+birdsWorld.bigBang(birdsWorld.image.width, birdsWorld.image.height, .001);
+The last argument of this function determines the tick-rate per second of the program. 
 
