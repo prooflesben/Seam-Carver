@@ -13,6 +13,7 @@ This project uses jdk 11.0.17.
 
 ## How to change the image
 First, create a new PixelImage object in testBigBang like shown below. Ensure that the jpg image you are referencing is in the main project folder.
+
 PixelImage balloonsImage = new PixelImage(new FromFileImage("balloons.jpg"));
 
 Then create a SeamCarvingWorld object using the PixelImage as an input for the constructor like below.
