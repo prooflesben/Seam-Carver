@@ -15,6 +15,14 @@ This project uses jdk 11.0.17.
 First, create a new PixelImage object in testBigBang like shown below. Ensure that the jpg image you are referencing is in the main project folder.
 PixelImage balloonsImage = new PixelImage(new FromFileImage("balloons.jpg"));
 
+# Extra Features
+To pause the game press space
+To change to/from deleting vertical seams press v or V
+To change to/from deleting horizontal seams press h or H
+To change to/from grayscale press g or G
+To change to/from seam weight press w or W
+Click any other key and reverts to randomly deleting in full color
+
 Then create a SeamCarvingWorld object using the PixelImage as an input for the constructor like below.
 SeamCarvingWWorld ballonsWorld = new SeamCarvingWorld(balloonsImage);
 
