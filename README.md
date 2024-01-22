@@ -8,5 +8,8 @@ This project was developed in Eclipse and needs to have tester.Main as the main 
 ## Needed Jars
 Two jars are used in this project tester.jar and javalib.jar these both can found in the jar folder.
 
+## JDK Version
+This project uses jdk 11.0.17.
+
 ## How to change the image
 
