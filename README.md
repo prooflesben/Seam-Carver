@@ -19,7 +19,9 @@ Then create a SeamCarvingWorld object using the PixelImage as an input for the c
 SeamCarvingWWorld ballonsWorld = new SeamCarvingWorld(balloonsImage);
 
 In the testBigBang function in the ExamplePixels class call the big bang function of the SeamCarvingWorld object with its image.width and image.height fields like below.
+
 birdsWorld.bigBang(birdsWorld.image.width, birdsWorld.image.height, .001);
+
 The last argument of this function determines the tick-rate per second of the program. 
 
 # Extra Features
